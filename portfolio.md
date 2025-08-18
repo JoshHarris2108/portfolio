@@ -23,6 +23,7 @@ My work usually builds on that of our in-house firmware team, or on the SDK of a
 - Reduced downtime on beaming experiments by reducing the need for manual intervention in radiation controlled areas.
 
 **Example of the UI:**
+
   <img width="1917" height="452" alt="image" src="https://github.com/user-attachments/assets/7534c2b3-f601-4563-8ec2-08fac803d0b2" />
 
 
@@ -40,9 +41,10 @@ My work usually builds on that of our in-house firmware team, or on the SDK of a
 
 **Outcomes:**
 - Successfully deployed for material characterisation at STFC, regularly used by in-house scientists along with external users from Cambridge University.  
-- Project picked up by apprentices for additional features and improvements.
+- As of June 2025: Directing and monitoring the work of a rotational apprentice to help deliver new features for the project, working closely with them and taking on a supervisory role by setting and monitoring their work, providing support along with code and merge request reviews.
 
 **Example of the UI:**
+
 <img width="1913" height="899" alt="pico-odin" src="https://github.com/user-attachments/assets/5b360586-5f00-4f46-8683-1035bbf9a8f5" />
 
 ## Jupyterhub Service Usage Metrics 
@@ -62,7 +64,7 @@ My work usually builds on that of our in-house firmware team, or on the SDK of a
 - Additional Django views deployed and data fed into existing Metrics monitoring system.
 
 ## DynamiX Detector Control System 
-**Dates:**  Apr 2024 - Feb 2025
+**Dates:**  Apr 2024 - Mar 2025
 
 **Tech Stack:** Python 3, ZeroMQ, React, Linux
 
@@ -78,7 +80,8 @@ My work usually builds on that of our in-house firmware team, or on the SDK of a
 - Control system allowed less tehcnically trained staff to operate the detector due to the simplified interface. 
 
 ## DSSG Monitoring Package
-**Dates:** Feb 2025
+**Dates:** March-April 2025
+
 **Tech Stack:** Python 3, Prometheus, Linux
 
 **Purpose/Context:** Developed a plugin-based monitoring system to export performance, utilisation, and environmental metrics for machines in the STFC DSSG labs, supporting sustainability initiatives. The system helps identify high power usage or low utilisation systems, and correlates this with environmental data such as lab temperature to assess when air conditioning systems are triggered — enabling data-driven adjustments to reduce overall power consumption.
@@ -91,4 +94,47 @@ My work usually builds on that of our in-house firmware team, or on the SDK of a
 
 **Outcomes:**
 - Successfully developed an inital prototype of the system, and worked closely with an Apprentice to bring out the full functionality.
-- Package deployed to ten's of machines to feed different metrics back into the database about the usage of our systems in the Labs. 
+- Package deployed to ten's of machines to feed different metrics back into the database about the usage of our systems in the Labs.
+
+**Example Dashboard from metrics:**
+
+<img width="2309" height="681" alt="image (2)" src="https://github.com/user-attachments/assets/f1362d4d-b441-4f49-9310-52563c854bd5" />
+
+## HexitecMHz Top Level UI
+**Dates: June 2025 - ongoing
+
+**Tech Stack:** Python3, XDMA, React, Linux
+
+**Purpose/Context:** Developing a unified control interface based off the work on the DynamiX Detector Control System. With aims to integrate API's from multiple subsystems and provide a single cohesive control interface for scientific users, whilst also providing different levels of access to 'power' and 'basic. The system aims to provide automatic subsystem recovery procedures when experimenting with development releases of firmware. 
+
+**Aproach:**
+- Created a Python StateMachine to detect the state of a subsystem, using this to run commands and scripts to try and recover the system from errors, and keep the datapath active for users.
+- Created a UI element to display these errors, and show high-level recovery procedure information to users.
+
+**Outcomes:**
+- Tested recovery system with users, sucessfully keeping the datapath flowing when any errors occur with the system.
+
+**Example UI component:**
+
+<img width="1759" height="829" alt="image" src="https://github.com/user-attachments/assets/a8a7c7e0-c390-4c30-9cd4-887dfa0133d2" />
+
+## CookieCutter Project Templating 
+**Dates:**  July 2025
+
+**Tech Stack:** Python3, GitHub Actions, CookieCutter
+
+**Purpose/Context:** Designing and developing a template for new odin-control based projects for use within the DSSG team. The aim was to produce a reusable project template using the CookieCutter framework to streamline the creation of new odin-control projects, reducing boilerplate work, ensure consistent project structures and embed good practices across the team. 
+
+**Approach:**
+- Designed CookiteCutter templates that produced new projects with a standardised directory layout with prompts to the user to provide values for attributes unique to their project, such as the project name, class names, author etc.
+- Provided inputs for configuration files to allow user to fully setup and configure their new project.
+- Created a public repository that hosts the template for use, created GitHub actions workflow for use within the team to create a new GitHub repository with the new project setup ready to clone.
+- Produced basic documentation on using the template.
+
+**Outcomes:**
+- Template successfully used to create new projects, and GitHub repositories.
+- Establishing uniform project structure and configuration.
+
+**Example running workflow:**
+
+<img width="339" height="635" alt="image" src="https://github.com/user-attachments/assets/531e143c-7adf-4b8b-b8fe-f20b0ee4ff01" />
