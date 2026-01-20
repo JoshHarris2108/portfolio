@@ -1,6 +1,6 @@
 # About me
 
-I am a software engineer specialising in developing control systems for scientific applications, these systems consist of a Python backend, a RESTful API and a React based webapp user facing interface. I have had over two and a half years experience delivering these systems for the Science and Technology Facilities Council (STFC), these sytems have been used in production environments at the Diamond Light Source.
+I am a software engineer specialising in developing control systems for scientific applications, these systems consist of a Python backend, a RESTful API and a React based webapp user facing interface. I have had over three years experience delivering these systems for the Science and Technology Facilities Council (STFC), these sytems have been used in production environments at the Diamond Light Source.
 
 My work usually builds on that of our in-house firmware team, or on the SDK of a device manufacturer to allow scientific users to efficiently and effectively operate complex instruments. I take full ownership of the development cycle from requirements gathering with clients to deployment and long-term support, usually involving working closely with multidisciplinary teams.
 
