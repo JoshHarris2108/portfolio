@@ -1,6 +1,6 @@
 # About me
 
-I am a software engineer specialising in developing control systems for scientific applications, these systems consist of a Python backend, a RESTful API and a React based webapp user facing interface. I have had over three years experience delivering these systems for the Science and Technology Facilities Council (STFC), these sytems have been used in production environments at the Diamond Light Source.
+I am a software engineer specialising in developing control systems for scientific applications, these systems consist of a Python backend, a RESTful API and a React based webapp user facing interface. I had just over three years experience delivering these systems for the Science and Technology Facilities Council (STFC), these sytems have been used in production environments at the Diamond Light Source.
 
 My work usually builds on that of our in-house firmware team, or on the SDK of a device manufacturer to allow scientific users to efficiently and effectively operate complex instruments. I take full ownership of the development cycle from requirements gathering with clients to deployment and long-term support, usually involving working closely with multidisciplinary teams.
 
@@ -101,7 +101,7 @@ My work usually builds on that of our in-house firmware team, or on the SDK of a
 <img width="2309" height="681" alt="image (2)" src="https://github.com/user-attachments/assets/f1362d4d-b441-4f49-9310-52563c854bd5" />
 
 ## HexitecMHz Top Level UI
-**Dates: June 2025 - ongoing
+**Dates: June 2025 - October 2025
 
 **Tech Stack:** Python3, XDMA, React, Linux
 
