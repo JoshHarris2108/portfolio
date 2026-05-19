@@ -11,7 +11,7 @@ My work usually builds on that of our in-house firmware team, or on the SDK of a
 
 **Tech Stack:** Python 3, HTML/JS, PyVisa, RaspberryPi, Linux
 
-**Purpose/Context:** Developed a control system for Keithley Instruments high-voltage power supplies and thermoelectric cooler controllers to allow remote operation and monitoring from outside the experiment hutch, contributing to massively reducing experiment downtime during beaming experiments at Diamond Light Source.
+**Purpose/Context:** Developed a control system for Keithley Instruments high-voltage power supplies and thermoelectric cooler controllers to allow remote operation and monitoring from outside the experiment hutch, contributing to massively reducing experiment downtime during beamline experiments at Diamond Light Source.
 
 **Approach** 
 - Designed Python classes to represent a generic GPIB device that provided the basic communication protocols over PyVisa and used inheritance to build device specific classes to represent distinct Kiethley Instrument models
@@ -20,7 +20,7 @@ My work usually builds on that of our in-house firmware team, or on the SDK of a
 
 **Outcomes:**
 - successfully deployed for scientific applications at Diamond Light Source, and routinely used on beamline experiments, API used to integrate the system into other control systems.
-- Reduced downtime on beaming experiments by reducing the need for manual intervention in radiation controlled areas.
+- Reduced downtime on beamline experiments by reducing the need for manual intervention in radiation controlled areas.
 
 **Example of the UI:**
 
