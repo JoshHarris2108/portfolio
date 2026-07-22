@@ -84,7 +84,7 @@ My work usually builds on that of our in-house firmware team, or on the SDK of a
 
 **Tech Stack:** Python 3, Prometheus, Linux
 
-**Purpose/Context:** Developed a plugin-based monitoring system to export performance, utilisation, and environmental metrics for machines in the STFC DSSG labs, supporting sustainability initiatives. The system helps identify high power usage or low utilisation systems, and correlates this with environmental data such as lab temperature to assess when air conditioning systems are triggered — enabling data-driven adjustments to reduce overall power consumption.
+**Purpose/Context:** Developed a plugin-based monitoring system to export performance, utilisation, and environmental metrics for machines in the STFC DSSG labs, supporting sustainability initiatives. The system helps identify high power usage or low utilisation systems, and correlates this with environmental data such as lab temperature to assess when air conditioning systems are triggered, enabling data-driven adjustments to reduce overall power consumption.
 
 **Approach:**
 - Created a modular Python package providing a Prometheus-cient http server, and designed a dyanmic "collector" loading system, allowing for metrics to be sourced from other python files without having to be part of the Monitoring package, to allow for easy use of user-written collectors.
@@ -138,3 +138,21 @@ My work usually builds on that of our in-house firmware team, or on the SDK of a
 **Example running workflow:**
 
 <img width="339" height="635" alt="image" src="https://github.com/user-attachments/assets/531e143c-7adf-4b8b-b8fe-f20b0ee4ff01" />
+
+## STM32 Embedded C - PAPR control system
+**Dates:**  February 2026 - Present
+
+**Tech Stack:** STM32 Eco-System, UART/IC2/SPI, C
+
+**Purpose/Context:** Firmware development for the electronic controller of a Powered Air-Purifying Respirator (PAPR), a battery-powered blower unit with airflow regulation, user-facing LED indication and a fault/alert system. Onboarded at the beta phase of the project, with some control logic already implemented on earlier hardware, and took over as sole firmware engineer following the departure of the original project manager. The aim was to move the product from beta-stage code to a structured, maintainable firmware package on the target MCU, ready for large scale manufacture.
+
+**Approach:**
+- Pivoted from a Python based software background into embedded C to meet a business need, onboarding through basic online C training, alongside reviewing the project's code from early phases.
+- Took ownership of all firmware task setting and scoping, handling client facing technical discussions, negotiating scope and requirements definiton and breaking down requirements into a structured Jira task hierarchy for tracability.
+- Rewrote the package from the ground up for the target MCU, as a structured CMake project, with a clear module separation.
+- Made use of the STM32 HAL libraries to accelerate development and turn the project around within a tight schedule.
+
+**Outcomes:**
+- PAPR control system delivered and verified in a Total Inward Leakage (TIL) test chamber, confirming the control system meets the clients requirements.
+- Current project progress delivered within original budgets.
+- Demonstrated ability to rapidly pivot to new technologies and tools.
